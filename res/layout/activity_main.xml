@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jp.co.okinawa.idea.janken.MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_gu"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#00ffffff"
+                android:src="@drawable/gu" />
+
+            <ImageButton
+                android:id="@+id/btn_choki"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#00ffffff"
+                android:src="@drawable/choki" />
+
+            <ImageButton
+                android:id="@+id/btn_pa"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#00ffffff"
+                android:src="@drawable/pa" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
